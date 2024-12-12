@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:text="@string/app_name"
+        android:textSize="65dp"
+        android:typeface="sans"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical">
+           <!-- <Button
+                android:id="@+id/textVie"
+                android:layout_width="181dp"
+                android:layout_height="72dp"
+                android:text="@string/start_button"
+                android:textSize="18dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/btn_select" />
+            <Button
+                android:id="@+id/camera_test"
+                android:layout_width="181dp"
+                android:layout_height="72dp"
+                android:text="@string/camera_test"
+                android:textSize="18dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/btn_select"
+                android:layout_marginLeft="15dp" />-->
+            <!--  <Button
+                 android:id="@+id/function_test"
+                 android:layout_width="181dp"
+                 android:layout_height="72dp"
+                 android:text="@string/function_test"
+                 android:textSize="18dp"
+                 android:textColor="@color/text_white"
+                 android:background="@drawable/btn_select"
+                 android:layout_marginLeft="15dp"
+                 />
+             <Button
+                 android:id="@+id/main_btn"
+                 android:layout_width="181dp"
+                 android:layout_height="72dp"
+                 android:text="数据收集系统"
+                 android:textSize="18dp"
+                 android:textColor="@color/text_white"
+                 android:background="@drawable/btn_select"
+                 android:layout_marginLeft="15dp"
+                 android:onClick="hardwareTest"
+                 />-->
+
+            <Button
+                android:id="@+id/emotion_btn"
+                android:layout_width="181dp"
+                android:layout_height="72dp"
+                android:text="端到端的情感识别"
+                android:textSize="18dp"
+                android:textColor="@color/text_white"
+                android:background="@drawable/btn_select"
+                android:layout_marginLeft="15dp"
+                android:onClick="hardwareTest"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

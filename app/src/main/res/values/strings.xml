@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EmotionRobot</string>
+    <string name="start_button">开始视频语音聊天</string>
+    <string name="hardware_test_title">多模态聊天框</string>
+    <string name="wake_up_robot">唤醒机器人</string>
+    <string name="take_photo">开始录制</string>
+    <string name="stop_photo">停止录制</string>
+    <string name="camera_test">测试摄像头</string>
+    <string name="function_test">相关功能测试</string>
+
+    <!--  语音播报内容  -->
+    <string name="welcome_words">欢迎来到心理健康测试系统，我是三宝，很高兴见到你。</string>
+
+
+    <!--  数据采集系统的内容 -->
+    <string name="app_dataset_init">数据库初始化</string>
+    <string name="app_start_test_text">文本心理测试</string>
+    <string name="app_start_test_pic">图片心理测试</string>
+    <string name="login_title">用户信息登记</string>
+    <string name="private_warning">\ \ \    注意：在测试的过程中我们会记录你的声音和视频，如果需要继续进行心理测试，那就在下面输入你的学号和姓名，或者将人脸对准镜头，点击开始检测。</string>
+    <string name="promote_words">请阅读下列文字：</string>
+    <string name="demo_testing_text">        这是一段测试的样本。</string>
+
+    <!--  这是聊天机器人相关的字符窜 -->
+    <string name="robot_welcome_words">你好，我是三宝，很高兴见到你。</string>
+    <string name="chat_dialog_title">ChatChat</string>
+
+    <string name="introduction1">我随时倾听你的心声，用专业的疏导和温暖的对话助你驱散心中的迷雾，共同探索健康成长的旅程。</string>
+    <string name="introduction2">我是专注于情感对话的机器人ChatChat, 懂得人们的喜，怒，哀，乐各种情绪，与人类共情对话。</string>
+    <string name="IflytekAPP_id">868314bc</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <solid android:color="#EAEAEA"/> <!-- 聊天框背景颜色 -->
+  <corners
+    android:topLeftRadius="0dp"
+    android:topRightRadius="0dp"
+    android:bottomRightRadius="12dp"
+    android:bottomLeftRadius="12dp"
+    />
+</shape>
